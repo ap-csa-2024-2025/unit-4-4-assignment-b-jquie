@@ -4,7 +4,16 @@ public class Main
 {
   public static void main(String[] args)
   {
-    // Put your solutions below
+    Scanner sc = new Scanner (System.in);
+    System.out.println("Write two strings:")
+    String sentence = sc.nextLine();
+    String target = sc.nextLine();
+    int index = sentence.indexOf(target);
+    if (!(index = -1)
+    {
+      String answer = sentence.substring(0, index) + sentence.substring(index + target.length());
+    }
+    System.out.println(answer);
   }
 
   public static int countSub(String word, String target)
